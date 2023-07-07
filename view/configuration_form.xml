@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of mifarma module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<data>
+    <xpath expr="/form" position="inside">
+        <label name="shelf_life_delay_shipment_in"/>
+        <field name="shelf_life_delay_shipment_in"/>
+        <label name="shelf_life_delay_shipment_in_return"/>
+        <field name="shelf_life_delay_shipment_in_return"/>
+    </xpath>
+</data>
