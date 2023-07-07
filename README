@@ -1,7 +1,7 @@
-stock_lot_last_expiration_date
+stock_lot_health_alert
 ==================================
 
-The stock_lot_last_expiration_date module of the Tryton application platform.
+The stock_lot_health_alert module of the Tryton application platform.
 
 Installing
 ----------

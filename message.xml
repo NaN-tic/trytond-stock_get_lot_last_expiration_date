@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton. The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="health_alert">
+            <field name="text">Health Alert</field>
+        </record>
+        <record model="ir.message" id="msg_remove_lot_health_alert">
+            <field name="text">You do not have permission to remove this lot [%(lot)s] with the health alert on true.</field>
+        </record>
+        <record model="ir.message" id="msg_edit_lot_health_alert_true">
+            <field name="text">You do not have permission to check to True the healt alert field on this lot [%(lots)s].</field>
+        </record>
+        <record model="ir.message" id="msg_edit_lot_health_alert">
+            <field name="text">You do not have permission to edit this lot [%(lots)s] with the health alert on true.</field>
+        </record>
+        <record model="ir.message" id="msg_create_lot_health_alert">
+            <field name="text">You do not have permission to create a lot with the health alert on true.</field>
+        </record>
+        <record model="ir.message" id="msg_modify_lot">
+            <field name="text">You do not have permission to modify lots.</field>
+        </record>
+        <record model="ir.message" id="msg_health_alert_lot_invalid_destination">
+            <field name="text">You are trying to do the Stock Move "%(move)s" but its Lot "%(lot)s" is in health alert and the Destination Location "%(to_location)s" doesn't accept lots in health alert.</field>
+        </record>
+        <record model="ir.message" id="msg_remove_move_health_alert">
+            <field name="text">You do not have permission to remove this move [product name: %(name)s] with the health alert lot on true.</field>
+        </record>
+        <record model="ir.message" id="msg_edit_move_health_alert">
+            <field name="text">You do not have permission to edit this move [product name: %(names)s] with the health alert lot on true.</field>
+        </record>
+        <record model="ir.message" id="msg_create_move_health_alert">
+            <field name="text">You do not have permission to create a move [product name, %(name)s] with the health alert lot on true.</field>
+        </record>
+    </data>
+</tryton>
